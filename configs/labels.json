@@ -1,0 +1,12 @@
+{
+  "description": "Damage classes, in checkpoint order. The index is the class id emitted by the model; background is handled separately by Detectron2 and is not listed.",
+  "classes": [
+    {"id": 0, "vi": "Móp lõm",      "en": "Dent"},
+    {"id": 1, "vi": "Trầy sơn",     "en": "Paint scratch"},
+    {"id": 2, "vi": "Rách",         "en": "Tear"},
+    {"id": 3, "vi": "Mất bộ phận",  "en": "Missing part"},
+    {"id": 4, "vi": "Thủng",        "en": "Puncture"},
+    {"id": 5, "vi": "Bể đèn",       "en": "Broken lamp"},
+    {"id": 6, "vi": "Vỡ kính",      "en": "Broken glass"}
+  ]
+}

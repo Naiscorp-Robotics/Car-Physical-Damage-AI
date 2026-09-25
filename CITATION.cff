@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Car Damage Mask R-CNN (R-101-DC5)"
+message: "If you use this model or code, please cite it as below."
+type: software
+authors:
+  - name: "The car-damage-maskrcnn authors"
+abstract: >-
+  Instance segmentation of seven kinds of physical damage on cars, for
+  insurance, rental and resale inspection. Mask R-CNN with a ResNet-101
+  Dilated-C5 backbone, trained with Detectron2 v0.6. Released as an
+  intermediate checkpoint at iteration 59,999 of 270,000 scheduled.
+keywords:
+  - car-damage
+  - instance-segmentation
+  - mask-rcnn
+  - detectron2
+  - vehicle-inspection
+  - computer-vision
+license: Apache-2.0
+version: "0.1.0"

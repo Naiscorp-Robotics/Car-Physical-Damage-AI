@@ -1,0 +1,38 @@
+# Model weights - distributed via GitHub Releases, never committed
+*.pth
+*.pt
+*.h5
+*.pkl
+*.onnx
+*.safetensors
+weights/*
+!weights/README.md
+
+# Detectron2 training output
+output/
+output*/
+*.log
+events.out.tfevents.*
+inference/
+
+# Datasets - image data never belongs in this repo
+datasets/car_damage/
+datasets/coco/
+datasets/images/
+datasets/annotations/
+*.json.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.venv*/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
